@@ -41,7 +41,7 @@ def only_positive_numbers(numbers):
   for element in numbers:
     if element > 0:
       positive_list.append(element)
-  return positive_list 
+  return positive_list
 
 check_that_these_are_equal(
 only_positive_numbers([-4, 4, -3, 3]), [4, 3])

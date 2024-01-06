@@ -81,8 +81,6 @@ def count_words_by_length(words):
     letter_count[count_chars] = letter_count.get(count_chars,0) + 1
   return letter_count
   
-  
-
 check_that_these_are_equal(
   count_words_by_length(["hat", "cat", "I", "bird"]),
   {3: 2, 1: 1, 4: 1}
